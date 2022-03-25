@@ -33,6 +33,8 @@
 # Descrição:
     ° Apache Netbeans IDE 11.3
     ° Glassfish 5.0
-    ° JDK 6.0
+    ° JDK 1.6
     ° BD Mysql
+    ° Hibernate 4.3x(JPA2.1)
+    ° javaee-endorsed-api-6.0
   
