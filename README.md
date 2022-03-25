@@ -1,4 +1,4 @@
-# Aplicação com EJB + JPA
+# Aplicação com EJB + JPA Sistema para emprestimo de Livro (Livraria).
 
 # Beans com Estado de Sessão (Stateful Session Beans).
     Um bean com estado de sessão (stateful session bean) tem como característica manter o estado conversacional para um cliente 
