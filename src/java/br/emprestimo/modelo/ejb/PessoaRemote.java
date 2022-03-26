@@ -6,11 +6,13 @@
 package br.emprestimo.modelo.ejb;
 
 import br.emprestimo.modelo.Pessoa;
+import javax.ejb.Remote;
 
 /**
  *
  * @author pwcun
  */
+@Remote
 public interface PessoaRemote {
     public Pessoa salvar(Pessoa pessoa) throws Exception;
     public void excluir(Long id);

@@ -7,6 +7,7 @@ package br.emprestimo.modelo.ejb;
 
 import br.emprestimo.modelo.Livro;
 import br.emprestimo.modelo.dao.LivroDAO;
+import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
@@ -14,10 +15,12 @@ import javax.persistence.PersistenceContext;
  *
  * @author pwcun
  */
+@Stateless
 public class LivroBean implements LivroRemote {
 
     @PersistenceContext(unitName = "EmprestimoPU")
     private EntityManager em;
+    
     private Long id;
     private Livro livro;
 

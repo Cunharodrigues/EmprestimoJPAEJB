@@ -6,11 +6,13 @@
 package br.emprestimo.modelo.ejb;
 
 import br.emprestimo.modelo.Livro;
+import javax.ejb.Remote;
 
 /**
  *
  * @author pwcun
  */
+@Remote
 public interface LivroRemote {
 
     public Livro salvar(Livro livro) throws Exception;
